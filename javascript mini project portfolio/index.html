@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<div class="item loader-container">
+	<i class="loader --7"></i>
+</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 80%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.name{
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.highlight-box{
+    background-color: #eddfde;
+    padding: 25px 20px;
+    margin: 20px 0 15px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.highlight1{
+    z-index: 100;
+}
+
+.highlight2{
+    position: absolute;
+    left: 45px;
+    top: 27px;
+    animation: highlight12 1s linear;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@keyframes highlight12 {
+    from{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.text{
+    line-height: 25px;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 30px 0;
+}
+.projects a{
+	height: 200px;
+	width: 300px;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-weight: bold;
+    transition: 0.5s;
+    height: 80px;
+    text-decoration: none;
+    color: black;
+}
+
+.project:hover{
+    background-color: #eddfde;
+    transform: scale(1.07);
+}
+
+.teach{
+	font-size: 18px;
+}
+.colortext{
+	font-size: 35px;
+	color: lightgreen;
+	
+}
+	</style>
+</head>
+<body>
+    <div class="box">
+        <span class="name">Samay Singh</span>
+        <div class="highlight-box">
+            <span class="highlight1">📔</span>	
+            <div class="highlight2">
+                <span>Content Creator</span>
+            </div>
+        </div>
+        <div class="text-box">
+            <p class="text">
+                I am Samay Singh.I am studying in gla university. Experience in the web design field for about 1 year. Expert in prototype, web designs, and fully responsive.I know HTML, CSS, JavaScript, Bootstrap and JQuery.Some mini projects are as below...
+            </p>
+        </div>
+        <div class="projects">
+            <a class="project project1" href="#" target="_blank">Calculate a weight of an object on a planet</a>
+            <a class="project project2" href="#" target="_blank">World Countries Data Visualization 1</a>
+            <a class="project project3" href="#" target="_blank">World Countries Data Visualization 2</a>
+        </div>
+		<div>
+			<p class="teach">
+				The technologies i teach <span class="colortext">NODE</span>
+			</p>
+		</div>
+    </div>
+    <script src="./portfolio.js"></script>
+</body>
+</html>
