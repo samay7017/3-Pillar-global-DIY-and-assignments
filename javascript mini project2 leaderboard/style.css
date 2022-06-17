@@ -13,9 +13,7 @@ body{
     justify-content: center;
 }
 
-.box{
 
-}
 
 .title{
     margin: 30px;
@@ -60,9 +58,7 @@ body{
     justify-content: center;
 }
 
-.output-box{
-    
-}
+
 
 .output{
     display: flex;
@@ -81,10 +77,6 @@ body{
 
 .name-text{
     display: block;
-}
-
-.date-text{
-
 }
 
 .country-box{

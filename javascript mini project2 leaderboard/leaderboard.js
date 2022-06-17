@@ -134,9 +134,6 @@ function findingTop(){
     for(let i = 0;i < temp1.length;i++){
         let a = 0;
         for(x of temp2){
-            if(x.score == 100){
-                a = x.score;
-            }
             if(x.score > a){
                 a = x.score;
             };
