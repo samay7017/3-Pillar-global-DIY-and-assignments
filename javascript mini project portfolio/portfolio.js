@@ -1,11 +1,11 @@
 let highlightBox = document.querySelector('.highlight-box');
 
 let titles = [
-    ['🌱', 'Educator'],
+    ['🌱', 'learner'],
     ['💻', 'Programmer'],
     ['🌐', 'Developer'],
-    ['🔥', 'Motivator'],
-    ['📔', 'Content Creator']
+    ['🔥', 'dedicated'],
+    ['📔', 'problem solver']
 ]
 
 let i = 0;
@@ -33,7 +33,7 @@ setInterval(function(){
 },1500)
 let j=0;
 let colorbox = document.querySelector('.colortext');
-let techs = ['ReactJs' ,'Python' , 'Django' ,'Javascript'];
+let techs = ['Java' ,'javscript' , 'Data structures' ,'MySQL'];
 setInterval(function(){
     setTimeout(function(){
 
